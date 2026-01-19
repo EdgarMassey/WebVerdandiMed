@@ -1,0 +1,75 @@
+﻿@page
+@model WebVerdandiMedReg.Pages.Membership.DetailsModel
+
+<h1>@Model.Member?.Mednamn</h1>
+
+@if (Model.Member == null)
+{
+    <p>Medlem hittades inte.</p>
+}
+else
+{
+    <div class="row mt-3">
+
+        <!-- LEFT COLUMN -->
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Personuppgifter</h5>
+
+                    <p><strong>Mednummer:</strong> @Model.Member.Mednummer</p>
+                    <p><strong>Namn:</strong> @Model.Member.Mednamn</p>
+                    <p><strong>Personnummer:</strong> @Model.Member.Personnr</p>
+                    <p><strong>Kön:</strong> @Model.Member.Kon</p>
+
+                    <p>
+                        <strong>Adress:</strong><br />
+                        @Model.Member.Adress1<br />
+                        @Model.Member.Adress2<br />
+                        @Model.Member.Postnummer @Model.Member.Ort<br />
+                        @Model.Member.Land
+                    </p>
+
+                    <p><strong>Email:</strong> @Model.Member.Email</p>
+                    <p><strong>Telefon:</strong> @Model.Member.Telefon</p>
+                    <p><strong>Mobil:</strong> @Model.Member.GSM</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Medlemskap</h5>
+
+                    <p><strong>Distrikt:</strong> @Model.Member.Distrikt</p>
+                    <p><strong>Avdelning:</strong> @Model.Member.Avdelning</p>
+                    <p><strong>Medlemstyp:</strong> @Model.Member.Medtyp</p>
+                    <p><strong>Styrelseuppdrag:</strong> @Model.Member.Styrelseuppdrag</p>
+                    <p><strong>Kontaktperson:</strong> @Model.Member.Kontaktperson</p>
+
+                    <p>
+                        <strong>Aktiv:</strong>
+                        @(Model.Member.EjAktiv == 1 ? "Nej" : "Ja")
+                    </p>
+
+                    <p><strong>Reg. sedan:</strong> @Model.Member.RegSedan</p>
+                    <p><strong>Senast uppdaterad:</strong> @Model.Member.SenastUppdatering</p>
+                    <p><strong>Faktura leverans:</strong> @Model.Member.Faktlevtyp</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FULL WIDTH SECTION -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Övrig information</h5>
+            <p>@Model.Member.Medlemsinfo</p>
+        </div>
+    </div>
+
+    <a asp-page="/Membership/Index" class="btn btn-secondary mt-3">← Tillbaka till listan</a>
+}

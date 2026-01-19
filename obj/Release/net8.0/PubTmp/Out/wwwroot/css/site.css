@@ -1,0 +1,54 @@
+:root {
+    --bg: #FAF7F2;
+    --text: #2E2E2E;
+    --primary: #C96A4A;
+    --primary-hover: #A5543A;
+    --accent: #D4A373;
+    --card: #FFF4E6;
+    --border: #E0D6CC;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* Links */
+a {
+    color: var(--primary);
+}
+
+    a:hover {
+        color: var(--primary-hover);
+    }
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+    .btn-primary:hover {
+        background-color: var(--primary-hover);
+        border-color: var(--primary-hover);
+    }
+
+/* Tables */
+table {
+    background-color: white;
+}
+
+thead {
+    background-color: #EFE6DC;
+}
+
+/* Cards / containers */
+.card, .container, .box {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+table tbody tr:hover {
+    background-color: #FFF4E6; /* warm hover color */
+}
+

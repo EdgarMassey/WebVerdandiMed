@@ -1,0 +1,113 @@
+﻿@page
+@model WebVerdandiMedReg.Pages.Membership.IndexModel
+
+<h1>Medlemslista</h1>
+
+<form method="get" class="mb-3">
+    <label>Distrikt</label>
+    <select name="Distrikt" onchange="this.form.submit()">
+        <option value="">Alla</option>
+        @foreach (var d in Model.DistriktOptions)
+        {
+            <option value="@d" selected="@(d == Model.Distrikt)">@d</option>
+        }
+    </select>
+
+    <label style="margin-left:12px;">Avdelning</label>
+    <select name="Avdelning" onchange="this.form.submit()">
+        <option value="">Alla</option>
+        @foreach (var a in Model.AvdelningOptions)
+        {
+            <option value="@a" selected="@(a == Model.Avdelning)">@a</option>
+        }
+    </select>
+
+    <noscript>
+        <button type="submit">Filtrera</button>
+    </noscript>
+    <label style="margin-left:12px;">Sök</label>
+    <input type="text"
+           name="Q"
+           value="@Model.Q"
+           placeholder="Namn eller medlemsnummer" />
+    <button type="submit">Sök</button>
+
+</form>
+
+@if (!Model.Items.Any())
+{
+    <p>Inga träffar.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-page="/Membership/Index"
+                       asp-route-Distrikt="@Model.Distrikt"
+                       asp-route-Avdelning="@Model.Avdelning"
+                       asp-route-Page="1"
+                       asp-route-Sort="Mednummer"
+                       asp-route-Desc="@(Model.Sort == "Mednummer" ? !Model.Desc : false)">
+                        Mednummer
+                    </a>
+                </th>
+                <th>
+                    <a asp-page="/Membership/Index"
+                       asp-route-Distrikt="@Model.Distrikt"
+                       asp-route-Avdelning="@Model.Avdelning"
+                       asp-route-Page="1"
+                       asp-route-Sort="Mednamn"
+                       asp-route-Desc="@(Model.Sort == "Mednamn" ? !Model.Desc : false)">
+                        Mednamn
+                    </a>
+                </th>
+                <th>
+                    <a asp-page="/Membership/Index"
+                       asp-route-Distrikt="@Model.Distrikt"
+                       asp-route-Avdelning="@Model.Avdelning"
+                       asp-route-Page="1"
+                       asp-route-Sort="Distrikt"
+                       asp-route-Desc="@(Model.Sort == "Distrikt" ? !Model.Desc : false)">
+                        Distrikt
+                    </a>
+                </th>
+                <th>
+                    <a asp-page="/Membership/Index"
+                       asp-route-Distrikt="@Model.Distrikt"
+                       asp-route-Avdelning="@Model.Avdelning"
+                       asp-route-Page="1"
+                       asp-route-Sort="Avdelning"
+                       asp-route-Desc="@(Model.Sort == "Avdelning" ? !Model.Desc : false)">
+                        Avdelning
+                    </a>
+                </th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            @foreach (var m in Model.Items)
+            {
+                <tr style="cursor:pointer"
+                    onclick="window.location='@Url.Page("/Membership/Details", new { mednummer = m.Mednummer })'">
+                    <td>@m.Mednummer</td>
+                    <td>@m.Mednamn</td>
+                    <td>@m.Distrikt</td>
+                    <td>@m.Avdelning</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+[BindProperty(SupportsGet = true)]
+public string? Q { get; set; }
+using Microsoft.AspNetCore.Authorization;
+
+[Authorize(Roles = "Admin")]
+public class IndexModel : PageModel
+{
+    ...
+}
