@@ -302,3 +302,10 @@ C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\dotnet-tools.json
 C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\WebVerdandiMedReg.deps.json
 C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\WebVerdandiMedReg.runtimeconfig.json
 C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\WebVerdandiMedReg.staticwebassets.endpoints.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\web.config
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\appsettings.Development.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\appsettings.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\dotnet-tools.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\WebVerdandiMedReg.deps.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\WebVerdandiMedReg.runtimeconfig.json
+C:\Github\WebVerdandiMedReg\bin\Release\net8.0\Publish\Publish\Publish\WebVerdandiMedReg.staticwebassets.endpoints.json

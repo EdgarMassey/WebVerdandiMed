@@ -33,6 +33,8 @@ else
                     <p><strong>Email:</strong> @Model.Member.Email</p>
                     <p><strong>Telefon:</strong> @Model.Member.Telefon</p>
                     <p><strong>Mobil:</strong> @Model.Member.GSM</p>
+                
+
                 </div>
             </div>
         </div>
@@ -46,9 +48,8 @@ else
                     <p><strong>Distrikt:</strong> @Model.Member.Distrikt</p>
                     <p><strong>Avdelning:</strong> @Model.Member.Avdelning</p>
                     <p><strong>Medlemstyp:</strong> @Model.Member.Medtyp</p>
+                    <p><strong>FamiljAnsvarig:</strong> @Model.Member.Kontaktperson</p>
                     <p><strong>Styrelseuppdrag:</strong> @Model.Member.Styrelseuppdrag</p>
-                    <p><strong>Kontaktperson:</strong> @Model.Member.Kontaktperson</p>
-
                     <p>
                         <strong>Aktiv:</strong>
                         @(Model.Member.EjAktiv == 1 ? "Nej" : "Ja")
@@ -56,6 +57,7 @@ else
 
                     <p><strong>Reg. sedan:</strong> @Model.Member.RegSedan</p>
                     <p><strong>Senast uppdaterad:</strong> @Model.Member.SenastUppdatering</p>
+                    <p><strong>Senast debitering:</strong> @Model.Member.SenasteDeb</p>
                     <p><strong>Faktura leverans:</strong> @Model.Member.Faktlevtyp</p>
                 </div>
             </div>
