@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Github\\WebVerdandiMedReg\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\areas\\identity\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|solutionrelative:areas\\identity\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\pages\\membership\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|solutionrelative:pages\\membership\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\webverdandimedreg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|solutionrelative:webverdandimedreg.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\areas\\identity\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|solutionrelative:areas\\identity\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FB6ED34-1F77-C0BD-2771-2F26C57C3DA4}|WebVerdandiMedReg.csproj|c:\\github\\webverdandimedreg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,37 +97,34 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T20:48:22.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Pages\\Membership\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Membership\\Details.cshtml",
               "ToolTip": "C:\\Github\\WebVerdandiMedReg\\Pages\\Membership\\Details.cshtml",
               "RelativeToolTip": "Pages\\Membership\\Details.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-20T06:24:01.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -135,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Users.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\Admin\\Users.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Admin\\Users.cshtml.cs",
@@ -143,11 +144,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Admin\\Users.cshtml.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAIwFEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:55:16.655Z"
+              "WhenOpened": "2026-01-19T12:55:16.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "WebVerdandiMedReg.csproj",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\WebVerdandiMedReg.csproj",
               "RelativeDocumentMoniker": "WebVerdandiMedReg.csproj",
@@ -159,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Pages\\Membership\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Membership\\Index.cshtml.cs",
@@ -167,12 +169,11 @@
               "RelativeToolTip": "Pages\\Membership\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T13:50:53.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T13:50:53.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\Admin\\Users.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Admin\\Users.cshtml",
@@ -184,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Pages\\Membership\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Membership\\Index.cshtml",
@@ -196,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -204,12 +205,11 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-18T14:11:54.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T14:11:54.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -221,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -233,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -245,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -257,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -269,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -281,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -293,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20260118132451_InitialIdentity.cs",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\Data\\Migrations\\20260118132451_InitialIdentity.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20260118132451_InitialIdentity.cs",
@@ -305,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Github\\WebVerdandiMedReg\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -314,6 +314,14 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-18T13:08:01.44Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4fc5ff1-28ef-4b04-ad02-6b298310ccc7}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

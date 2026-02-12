@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebVerdandiMedReg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aee01b700e0d8ea35157649654efabd1e4d8b481")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93bd6be02f2b6088c510d4bbf2d378105f611008")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebVerdandiMedReg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebVerdandiMedReg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
